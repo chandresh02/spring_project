@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.xworkz.food.app.Hotel;
 
 public class SpringTester {
-
+//creating a class
 	
 	public static void main(String[] args) {
 		
@@ -19,5 +19,6 @@ public class SpringTester {
 		System.out.println("beancount is::" +beanCount);
 		Hotel refOfHotel=spring.getBean(Hotel.class);
 		refOfHotel.order("idly", 2);
+                    
 	}
 }
