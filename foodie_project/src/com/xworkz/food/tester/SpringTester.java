@@ -7,7 +7,7 @@ import com.xworkz.food.app.Hotel;
 
 public class SpringTester {
 
-	
+	//this is comment
 	public static void main(String[] args) {
 		
 		String pathOfXml="resource/spring.xml";
