@@ -6,8 +6,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.xworkz.food.app.Hotel;
 
 public class SpringTester {
+<<<<<<< HEAD
 //creating a class
 	
+=======
+
+	//this is comment
+>>>>>>> ed2debcf04d1c85c34765c67bd3bac35e0f5d38a
 	public static void main(String[] args) {
 		
 		String pathOfXml="resource/spring.xml";
