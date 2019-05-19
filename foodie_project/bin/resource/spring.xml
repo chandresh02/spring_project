@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<bean id="taj" class="com.xworkz.food.app.Hotel"></bean>
+	
+	<bean id="email" class="java.lang.String"></bean>
+	
+	<bean id="thread" class="java.lang.Thread"></bean>
+
+   <bean id="arrayList" class="java.util.ArrayList"></bean>
+   
+   <bean id="integer"   class="com.xworkz.food.app.IntegerClass"></bean>
+   
+   <bean id="character" class="com.xworkz.food.app.CharacterClass"></bean>
+   
+  <bean id="double"  class="com.xworkz.food.app.DoubleClass"></bean>
+  
+   
+</beans>
